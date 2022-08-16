@@ -2,7 +2,7 @@ import os
 
 import mlflow
 
-mlflow_uri = "http://localhost:3000" # change to your uri + port
+mlflow_uri = "http://localhost:5000" # change to your uri + port
 
 mlflow.set_tracking_uri(mlflow_uri)
 
